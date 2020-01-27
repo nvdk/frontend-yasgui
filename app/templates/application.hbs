@@ -1,5 +1,5 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+endpoint: <input type='text' value={{endpoint}} {{on 'change' this.setEndpoint}} />
+<YasguiIntegration as |Yasgui|>
+  <Yasgui.editor @endpoint={{this.endpoint}} />
+  <Yasgui.results />
+</YasguiIntegration>

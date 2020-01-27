@@ -1,8 +1,10 @@
 # frontend-yasgui
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Quick and dirty ember app wrapping ember-cli-yasgui. 
 
+```
+docker run -p 80:80 nvdk/frontend-yasgui
+```
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
